@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+:root
+{
+    --WhiteGreen:hsl(179, 62%, 43%);
+    --WhiteGreen2: rgb(42,179,177 ,.3);
+    --yellow:hsl(71, 73%, 54%);
+    --GrayWhite:hsl(204, 43%, 93%);
+    --blue:hsl(218, 22%, 67%);
+}
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+font-family: "Karla", sans-serif;
+background-color: var(--GrayWhite);
+}
+
+main
+{
+    min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(204, 43%, 93%);
+	padding: 100px 30px;
+  
+}
+.top-contaner
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.top-contaner-title
+{
+    color: var(--WhiteGreen);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom:24px ;
+}
+.top-contaner-subtitle
+{
+    color: var(--yellow);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.top-contaner-contant
+{
+    font-size: 16px;
+    color: var(--blue);
+}
+.bottom
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.bottom-contaner-l
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--WhiteGreen);
+    padding-top: 40px;
+    padding-left: 40px;
+    color: white;
+    width: 318px;
+    height: 259px;
+}
+.bottom-contaner-title-l
+{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px ;
+}
+.bottom-contaner-price-l
+{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 4px ;
+}
+.bottom-contaner-price-l span
+{
+    font-size: 16px;
+    opacity: 50%;
+    font-weight: 400;
+    padding-left: 11px;
+}
+.bottom-contaner-contant-l
+{
+    margin-bottom: 26px ;
+}
+.sign-up-button
+{
+    background-color: var(--yellow);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 237px;
+    height: 48px;
+    font-weight: 700;
+    box-shadow: 0px 10px 60px var(--blue); 
+}
+.bottom-contaner-r
+{
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+    height: 259px;
+    background-color: var(--WhiteGreen2);
+    padding-top: 40px;
+    padding-left: 40px;
+    color: white;
+}
+
+.bottom-contaner-title-r
+{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px ;
+}
+.bottom-contaner-contant-r
+{
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 75%;
+}
+@media (max-width:700px)
+{
+    .top-contaner
+    {
+        width: 318px;
+    }
+}
